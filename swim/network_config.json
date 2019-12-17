@@ -1,0 +1,86 @@
+{
+    "name": "swim_gw",
+    "version": "1.0.0",
+    "client": {
+        "organization": "org1msp",
+        "connection": {
+            "timeout": {
+                "peer": {
+                    "endorser": "300"
+                },
+                "orderer": "173.193.79.14:30892"
+            }
+        }
+    },
+    "organizations": {
+        "org1msp": {
+            "mspid": "org1msp",
+            "peers": [
+                "Peer Org1"
+            ],
+            "certificateAuthorities": [
+                "Org1 CA"
+            ]
+        }
+    },
+    "peers": {
+        "Peer Org1": {
+            "url": "grpcs://173.193.79.14:30557",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\nMIICIjCCAcigAwIBAgIUWcjE4rmEyjPNbj4mv0KyoupKOsgwCgYIKoZIzj0EAwIw\nYjELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQK\nEwtIeXBlcmxlZGdlcjEPMA0GA1UECxMGRmFicmljMRMwEQYDVQQDEwpPcmcxQ0Et\ndGxzMB4XDTE5MTIwNzE2NTIwMFoXDTM0MTIwMzE2NTIwMFowYjELMAkGA1UEBhMC\nVVMxFzAVBgNVBAgTDk5vcnRoIENhcm9saW5hMRQwEgYDVQQKEwtIeXBlcmxlZGdl\ncjEPMA0GA1UECxMGRmFicmljMRMwEQYDVQQDEwpPcmcxQ0EtdGxzMFkwEwYHKoZI\nzj0CAQYIKoZIzj0DAQcDQgAEh3GZZDdK9HaZckyjJdf+jPutCOSJTPOYfHHfWCy9\n0gF9O+zueZg8zr01kH8xpTq0dcuXAGVEJ7reuoSNJ6NTJ6NcMFowDgYDVR0PAQH/\nBAQDAgEGMBIGA1UdEwEB/wQIMAYBAf8CAQEwHQYDVR0OBBYEFJRzQLHIwjL+Uvdb\nd7me/SxtO39DMBUGA1UdEQQOMAyHBK3BTw6HBAoves8wCgYIKoZIzj0EAwIDSAAw\nRQIhAL6WF4bWuapZPC6ck3OWlMEb0XYmMKFRKWdNVSbgqr+oAiABXHIGs1uwKF85\naiAbkBQDQP35RKwPfGqjmqWnERLkyg==\n-----END CERTIFICATE-----\n"
+            },
+            "grpcOptions": {
+                "ssl-target-name-override": "Peer Org1"
+            }
+
+        }
+    },
+    "certificateAuthorities": {
+        "Org1 CA": {
+            "url": "https://173.193.79.14:31492",
+            "caName": "ca",
+            "tlsCACerts": {
+                "pem": "-----BEGIN CERTIFICATE-----\r\nMIICdzCCAeCgAwIBAgIJAPm+N2RYjMpzMA0GCSqGSIb3DQEBBQUAMHMxFjAUBgNV\r\nBAMTDTE3My4xOTMuNzkuMTQxCzAJBgNVBAYTAlVTMRcwFQYDVQQIEw5Ob3J0aCBD\r\nYXJvbGluYTEQMA4GA1UEBxMHUmFsZWlnaDEMMAoGA1UEChMDSUJNMRMwEQYDVQQL\r\nEwpCbG9ja2NoYWluMB4XDTE5MTIwNzE2NTYzNloXDTIwMTIwNjE2NTYzNlowczEW\r\nMBQGA1UEAxMNMTczLjE5My43OS4xNDELMAkGA1UEBhMCVVMxFzAVBgNVBAgTDk5v\r\ncnRoIENhcm9saW5hMRAwDgYDVQQHEwdSYWxlaWdoMQwwCgYDVQQKEwNJQk0xEzAR\r\nBgNVBAsTCkJsb2NrY2hhaW4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK4E\r\nFH5AySbf6orVpgV4iG0gJ5ZmLf8BPveOcisUqKKWH6DqDR89fDqvNdB5EgApM01m\r\nGM5+Gfg9OqJVZWZMBLetbYYquEmQmA0ULI5DYQrj9VLnaJGbLbC8IFOOnP15LsOY\r\nsRXhHuTOjqpIyoocihQcYJMuit2YT+LNdvZ7KEB3AgMBAAGjEzARMA8GA1UdEQQI\r\nMAaHBK3BTw4wDQYJKoZIhvcNAQEFBQADgYEAjTG5h1pZJJC6XeozHcBrk917pWYf\r\ncE1L2GVSGtXggm6USGYOB3ZmJ5zKj+n9ZqzX/hwRC/j4MNKJxOzqRrpxfktSM5ri\r\n9H14Up+6RZKykDzmVp+SojVQIVRmxiBRb6S/PYRivfnaTtWVqj1P4pQnnmjJ80RA\r\nEGmydUGYC9qMNkA=\r\n-----END CERTIFICATE-----\r\n"
+            },
+            "httpsOptions":{
+                "verify": false
+            }
+        }
+    },
+    "caliper": {
+        "blockchain": "fabric"
+    },
+    "wallet": "/home/bonomo/Documents/swim/org1",
+    "clients": {
+        "channel1": {
+            "client": {
+                "organization": "org1msp",
+                "connection": {
+                    "timeout": {
+                        "peer": {
+                            "endorser": "300",
+                            "Peer Org1": "grpcs://173.193.79.14:30557"
+                        },
+                        "orderer": "173.193.79.14:30892"
+                    }
+                }
+            }
+        }
+     },
+     "channels": {
+        "channel1": {
+            "chaincodes": [
+                {
+                    "id": "swimPlano",
+                    "version": "0.0.1"
+                }
+            ],
+            "orderers": [
+                "173.193.79.14:30892"
+            ],
+            "peers": {
+                "Peer Org1": {}
+            }
+        }
+    }
+}

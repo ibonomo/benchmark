@@ -1,0 +1,2112 @@
+2019-12-14T20:06:22-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:06:23-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:06:23-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:06:23-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:06:23-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:06:23-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:06:23-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:06:23-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:06:23-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:06:23-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:06:23-05:00 - INFO [client-util.js]: Launching client with PID  8368 
+
+2019-12-14T20:06:23-05:00 - INFO [client-util.js]: Launching client with PID  8373 
+
+2019-12-14T20:06:23-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:06:24-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:25-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:26-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:24-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:06:24-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:06:27-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:06:27-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:28-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:29-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:06:29-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:06:29-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:06:29-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:06:29-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:06:29-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:06:29-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:06:29-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:06:29-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:06:29-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:06:29-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:06:29-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:06:29-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:06:29-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:06:29-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:06:29-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:30-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:31-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:06:32-05:00 - INFO [local-client.js]: Client[8368] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:7051
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:06:32-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:7051
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:06:32-05:00 - INFO [local-client.js]: Client[8373] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:7051
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:08:42-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:08:44-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:08:44-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:08:44-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:08:44-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:08:44-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:08:44-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:08:44-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:08:44-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:08:44-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:08:44-05:00 - INFO [client-util.js]: Launching client with PID  8443 
+
+2019-12-14T20:08:44-05:00 - INFO [client-util.js]: Launching client with PID  8444 
+
+2019-12-14T20:08:44-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:08:45-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:46-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:47-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:45-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:08:45-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:08:48-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:08:48-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:08:49-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:49-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:08:49-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:08:49-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:08:49-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:08:49-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:08:49-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:08:49-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:08:49-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:08:49-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:08:49-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:08:49-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:08:49-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:08:49-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:08:49-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:08:49-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:08:50-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:51-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:52-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:08:53-05:00 - INFO [local-client.js]: Client[8444] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:7443
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:08:53-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:7443
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:08:53-05:00 - INFO [local-client.js]: Client[8443] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:7443
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:09:14-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:09:15-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:09:15-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:09:15-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:09:15-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:09:15-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:09:15-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:09:15-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:09:15-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:09:15-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:09:15-05:00 - INFO [client-util.js]: Launching client with PID  8510 
+
+2019-12-14T20:09:15-05:00 - INFO [client-util.js]: Launching client with PID  8515 
+
+2019-12-14T20:09:15-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:09:16-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:17-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:18-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:19-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:16-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:09:16-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:09:19-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:09:19-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:09:19-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:09:19-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:09:19-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:09:19-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:09:20-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:09:20-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:09:20-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:21-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:09:21-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:09:21-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:09:21-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:09:21-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:09:21-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:09:21-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:09:21-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:09:21-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:09:21-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:09:21-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:09:21-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:09:21-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:09:21-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:09:21-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:09:21-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:22-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:23-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:24-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:09:25-05:00 - INFO [local-client.js]: Client[8510] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30784
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:09:25-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30784
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:09:25-05:00 - INFO [local-client.js]: Client[8515] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30784
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:09:59-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:10:01-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:10:01-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:10:01-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:10:01-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:10:01-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:10:01-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:10:01-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:10:01-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:10:01-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:10:01-05:00 - INFO [client-util.js]: Launching client with PID  8576 
+
+2019-12-14T20:10:01-05:00 - INFO [client-util.js]: Launching client with PID  8577 
+
+2019-12-14T20:10:01-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:10:02-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:03-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:04-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:05-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:02-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:10:02-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:10:05-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:10:06-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:07-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:10:07-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:10:07-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:10:07-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:10:07-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:10:07-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:10:07-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:10:07-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:10:07-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:10:07-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:10:07-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:10:07-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:10:07-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:07-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:10:07-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:10:07-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:10:08-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:09-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:10-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:10:10-05:00 - INFO [local-client.js]: Client[8577] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30784
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:10:10-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30784
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:10:10-05:00 - INFO [local-client.js]: Client[8576] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30784
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:14:18-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:14:19-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:14:19-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:14:19-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:14:19-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:14:19-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:14:19-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:14:19-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:14:19-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:14:19-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:14:19-05:00 - INFO [client-util.js]: Launching client with PID  8815 
+
+2019-12-14T20:14:19-05:00 - INFO [client-util.js]: Launching client with PID  8816 
+
+2019-12-14T20:14:19-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:14:20-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:21-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:22-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:23-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:24-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:21-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:14:21-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:14:25-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:14:25-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:26-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:14:26-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:14:26-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:14:26-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:14:26-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:14:26-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:14:26-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:14:26-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:14:26-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:14:26-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:14:26-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:14:26-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:14:26-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:14:26-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:14:26-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:14:26-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:27-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:28-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:29-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:14:30-05:00 - INFO [local-client.js]: Client[8815] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:14:30-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:14:30-05:00 - INFO [local-client.js]: Client[8816] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:21:49-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:21:51-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:21:51-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:21:51-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:21:51-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:21:51-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:21:51-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:21:51-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:21:51-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:21:51-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:21:51-05:00 - INFO [client-util.js]: Launching client with PID  8945 
+
+2019-12-14T20:21:51-05:00 - INFO [client-util.js]: Launching client with PID  8950 
+
+2019-12-14T20:21:51-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:21:52-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:53-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:54-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:52-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:21:55-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:52-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:21:55-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:21:56-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:56-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:21:56-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:21:56-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:21:56-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:21:56-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:21:56-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:21:56-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:21:56-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:21:56-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:21:56-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:21:56-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:21:56-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:21:56-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:21:56-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:21:56-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:21:57-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:58-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:21:59-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:22:00-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:22:00-05:00 - INFO [local-client.js]: Client[8950] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557/TCP
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:22:00-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557/TCP
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:22:00-05:00 - INFO [local-client.js]: Client[8945] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557/TCP
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:25:02-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:25:03-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:25:03-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:25:03-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:25:03-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:25:03-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:25:03-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:25:03-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:25:03-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:25:03-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:25:04-05:00 - INFO [client-util.js]: Launching client with PID  9077 
+
+2019-12-14T20:25:04-05:00 - INFO [client-util.js]: Launching client with PID  9078 
+
+2019-12-14T20:25:04-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:25:04-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:06-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:07-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:08-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:05-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:25:05-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:25:08-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:25:09-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:09-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:25:09-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:25:09-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:25:09-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:25:09-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:25:09-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:25:09-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:25:09-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:25:09-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:25:09-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:25:09-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:25:09-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:25:09-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:25:09-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:25:09-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:25:10-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:11-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:12-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:13-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:25:13-05:00 - INFO [local-client.js]: Client[9077] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30604
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:25:13-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30604
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:25:13-05:00 - INFO [local-client.js]: Client[9078] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30604
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:38:41-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:38:43-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:38:43-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:38:43-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:38:43-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:38:43-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:38:43-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:38:43-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:38:43-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:38:43-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:38:43-05:00 - INFO [client-util.js]: Launching client with PID  9259 
+
+2019-12-14T20:38:43-05:00 - INFO [client-util.js]: Launching client with PID  9260 
+
+2019-12-14T20:38:43-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:38:44-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:45-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:46-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:44-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:38:44-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:38:47-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:38:47-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:38:48-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:48-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:38:48-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:38:48-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:38:48-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:38:48-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:38:48-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:38:48-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:38:48-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:38:48-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:38:48-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:38:48-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:38:48-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:38:48-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:38:48-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:38:48-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:38:49-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:50-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:51-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:38:52-05:00 - INFO [local-client.js]: Client[9260] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30604
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:38:52-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30604
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:38:52-05:00 - INFO [local-client.js]: Client[9259] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30604
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:39:08-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:39:09-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:39:09-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:39:09-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:39:09-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:39:09-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:39:09-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:39:09-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:39:09-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:39:09-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:39:09-05:00 - INFO [client-util.js]: Launching client with PID  9326 
+
+2019-12-14T20:39:09-05:00 - INFO [client-util.js]: Launching client with PID  9327 
+
+2019-12-14T20:39:09-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:39:10-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:11-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:12-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:10-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:39:10-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:39:13-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:39:13-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:14-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:14-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:39:14-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:39:14-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:39:14-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:39:14-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:39:14-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:39:14-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:39:14-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:39:14-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:39:14-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:39:14-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:39:14-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:39:14-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:39:14-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:39:14-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:39:15-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:16-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:17-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:39:18-05:00 - INFO [local-client.js]: Client[9327] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:39:18-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:39:18-05:00 - INFO [local-client.js]: Client[9326] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:40:48-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:40:49-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:40:49-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:40:49-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:40:49-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:40:49-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:40:49-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:40:49-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:40:49-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:40:49-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:40:49-05:00 - INFO [client-util.js]: Launching client with PID  10040 
+
+2019-12-14T20:40:49-05:00 - INFO [client-util.js]: Launching client with PID  10045 
+
+2019-12-14T20:40:49-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:40:50-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:51-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:52-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:50-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:40:50-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:40:53-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:40:53-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:40:54-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:55-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:40:55-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:40:55-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:40:55-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:40:55-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:40:55-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:40:55-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:40:55-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:40:55-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:40:55-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:40:55-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:40:55-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:40:55-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:40:55-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:40:55-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:40:55-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:56-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:57-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:40:58-05:00 - INFO [local-client.js]: Client[10040] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:40:58-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:40:58-05:00 - INFO [local-client.js]: Client[10045] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:41:44-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:41:45-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:41:45-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:41:45-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:41:45-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:41:45-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:41:45-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:41:45-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:41:45-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:41:45-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:41:45-05:00 - INFO [client-util.js]: Launching client with PID  10149 
+
+2019-12-14T20:41:45-05:00 - INFO [client-util.js]: Launching client with PID  10150 
+
+2019-12-14T20:41:45-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:41:46-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:47-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:48-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:46-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:41:46-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:41:49-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:41:49-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:41:50-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:51-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:41:51-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:41:51-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:41:51-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:41:51-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:41:51-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:41:51-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:41:51-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:41:51-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:41:51-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:41:51-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:41:51-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:41:51-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:41:51-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:41:51-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:41:51-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:52-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:53-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:41:54-05:00 - INFO [local-client.js]: Client[10149] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:41:54-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:41:54-05:00 - INFO [local-client.js]: Client[10150] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:48:38-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:48:39-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:48:39-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:48:39-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:48:39-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:48:39-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:48:39-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:48:39-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:48:39-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:48:39-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:48:39-05:00 - INFO [client-util.js]: Launching client with PID  10350 
+
+2019-12-14T20:48:39-05:00 - INFO [client-util.js]: Launching client with PID  10351 
+
+2019-12-14T20:48:39-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:48:40-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:41-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:42-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:40-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:48:40-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:48:43-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:48:43-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:48:44-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:45-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:48:45-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:48:45-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:48:45-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:48:45-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:48:45-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:48:45-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:48:45-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:48:45-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:48:45-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:48:45-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:48:45-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:48:45-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:48:45-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:48:45-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:48:45-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:46-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:47-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:48:48-05:00 - INFO [local-client.js]: Client[10350] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:48:48-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:48:48-05:00 - INFO [local-client.js]: Client[10351] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:56:45-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:56:48-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:56:48-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:56:48-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:56:48-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:56:48-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:56:48-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:56:48-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:56:48-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:56:48-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:56:48-05:00 - INFO [client-util.js]: Launching client with PID  10917 
+
+2019-12-14T20:56:48-05:00 - INFO [client-util.js]: Launching client with PID  10918 
+
+2019-12-14T20:56:48-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:56:49-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:50-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:51-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:52-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:53-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:54-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:50-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:56:50-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:56:55-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:56:55-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:56-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:57-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:56:57-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:56:57-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:56:57-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:56:57-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:56:57-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:56:57-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:56:57-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:56:57-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:56:57-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:56:57-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:56:57-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:56:57-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:56:57-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:56:57-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:56:57-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:58-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:56:59-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:00-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:01-05:00 - INFO [local-client.js]: Client[10918] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:01-05:00 - ERROR [defaultTest]: ------ Failed 'queryAsset' testing with the following error ------
+    Error: Client encountered error:Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at ChildProcess.<anonymous> (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/client/client-util.js:102:36)
+    at emitTwo (events.js:125:13)
+    at ChildProcess.emit (events.js:213:7)
+    at emit (internal/child_process.js:774:12)
+    at _combinedTickCallback (internal/process/next_tick.js:141:11)
+    at process._tickCallback (internal/process/next_tick.js:180:9) 
+
+2019-12-14T20:57:01-05:00 - INFO [local-client.js]: Client[10917] encountered an error: Error: Unable to initialize channel. Attempted to contact 1 Peers. Last error was Error: Failed to connect before the deadline URL:grpcs://173.193.79.14:30557
+    at Network._initializeInternalChannel (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/network.js:112:12)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:18-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:57:20-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:57:20-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:57:20-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:57:20-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:57:20-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:57:20-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:57:20-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:57:20-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:57:20-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:57:20-05:00 - INFO [client-util.js]: Launching client with PID  10986 
+
+2019-12-14T20:57:20-05:00 - INFO [client-util.js]: Launching client with PID  10987 
+
+2019-12-14T20:57:20-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:57:21-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:22-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:23-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:24-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:25-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:22-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:57:22-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:57:26-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:57:26-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:27-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:28-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:57:28-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:57:28-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:57:28-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:57:28-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:57:28-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:57:28-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:57:28-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:57:28-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:57:28-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:57:28-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:57:28-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:57:28-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:57:28-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:57:28-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:57:28-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:29-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:57:30-05:00 - INFO [local-client.js]: Info: client 10986 start test runFixedNumber():Template callback 
+
+2019-12-14T20:57:30-05:00 - INFO [local-client.js]: Info: client 10987 start test runFixedNumber():Template callback 
+
+2019-12-14T20:57:30-05:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-backlog","opts":{"unfinished_per_client":2}}
+
+2019-12-14T20:57:30-05:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-backlog","opts":{"unfinished_per_client":2}}
+
+2019-12-14T20:57:30-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2 Succ: 0 Fail:0 Unfinished:2 
+
+2019-12-14T20:57:31-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2 Succ: 0 Fail:0 Unfinished:2 
+
+2019-12-14T20:57:32-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2 Succ: 0 Fail:0 Unfinished:2 
+
+2019-12-14T20:57:33-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [createMyAsset] using arguments [0_0,UUID: 0_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:33-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [createMyAsset] using arguments [1_0,UUID: 1_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:33-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 4 Succ: 0 Fail:0 Unfinished:4 
+
+2019-12-14T20:57:34-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 21 Succ: 0 Fail:0 Unfinished:21 
+
+2019-12-14T20:57:35-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:0 Unfinished:30 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:2 Unfinished:28 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:36-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:37-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:57:38-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:57:39-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:57:40-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [deleteMyAsset] using arguments [0_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:40-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [deleteMyAsset] using arguments [1_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:57:40-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:57:41-05:00 - DEBUG [report-builder]: r.create.max: 1576375054.718 r.create.min: 1576375053.214 r.final.max: null r.final.min: null r.final.last: 1576375057.736 
+
+2019-12-14T20:58:29-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:58:31-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:58:31-05:00 - INFO [caliper-flow]: ####### Caliper Test ####### 
+
+2019-12-14T20:58:31-05:00 - INFO [caliper-flow]: Skipping start commands due to benchmark flow conditioning 
+
+2019-12-14T20:58:31-05:00 - INFO [caliper-flow]: Skipping initialization phase due to benchmark flow conditioning 
+
+2019-12-14T20:58:31-05:00 - INFO [caliper-flow]: Skipping install smart contract phase due to benchmark flow conditioning 
+
+2019-12-14T20:58:31-05:00 - ERROR [monitor.js]: undefined monitor type: none 
+
+2019-12-14T20:58:31-05:00 - INFO [caliper-flow]: Started monitor successfully 
+
+2019-12-14T20:58:31-05:00 - INFO [defaultTest]: ####### Testing 'queryAsset' ####### 
+
+2019-12-14T20:58:31-05:00 - INFO [defaultTest]: ------ Test round 1 ------ 
+
+2019-12-14T20:58:31-05:00 - INFO [client-util.js]: Launching client with PID  11348 
+
+2019-12-14T20:58:31-05:00 - INFO [client-util.js]: Launching client with PID  11349 
+
+2019-12-14T20:58:31-05:00 - INFO [client-util.js]: Waiting for 2 clients to be ready...  
+
+2019-12-14T20:58:32-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:33-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:34-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:35-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:33-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:58:33-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: Using defined file wallet path /home/bonomo/Documents/swim/org1 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: skipping registrar initialisation due to presence of file system wallet 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: No admin.org1msp found in wallet - unable to perform admin options 
+
+2019-12-14T20:58:36-05:00 - INFO [adapters/fabric]: Retriving credentials for channel1 from wallet 
+
+2019-12-14T20:58:36-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:37-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:38-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:58:38-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:58:38-05:00 - INFO [client-util.js]: Client ready message recieved 
+
+2019-12-14T20:58:38-05:00 - INFO [client-util.js]: 2 clients ready, starting test phase 
+
+2019-12-14T20:58:38-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":0}
+
+2019-12-14T20:58:38-05:00 - INFO [fabric/fabricClientWorker]: Client ready 
+
+2019-12-14T20:58:38-05:00 - DEBUG [local-client.js]: doTest() with:
+	{"type":"test","label":"queryAsset","rateControl":{"type":"fixed-backlog","opts":{"unfinished_per_client":2}},"trim":0,"args":{"assets":1},"cb":"callbacks/queryAssetBenchmark.js","config":"/home/bonomo/Documents/swim/network_config.json","root":"/home/bonomo/Documents/swim","numb":15,"roundIdx":1,"totalClients":2,"clients":2,"clientargs":{},"clientIdx":1}
+
+2019-12-14T20:58:38-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:58:38-05:00 - INFO [local-client.js]: txUpdateTime: 1000 
+
+2019-12-14T20:58:38-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:58:38-05:00 - INFO [adapters/fabric]: Retrieving and persisting contract map for identity channel1 
+
+2019-12-14T20:58:38-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:58:38-05:00 - INFO [adapters/fabric]: Connecting user channel1 to a Network Gateway 
+
+2019-12-14T20:58:38-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:58:38-05:00 - INFO [adapters/fabric]: Generating contract map for user channel1 
+
+2019-12-14T20:58:38-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:39-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 0 Succ: 0 Fail:0 Unfinished:0 
+
+2019-12-14T20:58:40-05:00 - INFO [local-client.js]: Info: client 11348 start test runFixedNumber():Template callback 
+
+2019-12-14T20:58:40-05:00 - INFO [local-client.js]: Info: client 11349 start test runFixedNumber():Template callback 
+
+2019-12-14T20:58:40-05:00 - DEBUG [rateControl.js]: Creating rate controller for client#0 for round#1
+	{"type":"fixed-backlog","opts":{"unfinished_per_client":2}}
+
+2019-12-14T20:58:40-05:00 - DEBUG [rateControl.js]: Creating rate controller for client#1 for round#1
+	{"type":"fixed-backlog","opts":{"unfinished_per_client":2}}
+
+2019-12-14T20:58:40-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 1 Succ: 0 Fail:0 Unfinished:1 
+
+2019-12-14T20:58:41-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2 Succ: 0 Fail:0 Unfinished:2 
+
+2019-12-14T20:58:42-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 2 Succ: 0 Fail:0 Unfinished:2 
+
+2019-12-14T20:58:43-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [createMyAsset] using arguments [0_0,UUID: 0_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:43-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [createMyAsset] using arguments [1_0,UUID: 1_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:43-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 3 Succ: 0 Fail:0 Unfinished:3 
+
+2019-12-14T20:58:44-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 19 Succ: 0 Fail:0 Unfinished:19 
+
+2019-12-14T20:58:45-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:0 Unfinished:30 
+
+2019-12-14T20:58:46-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:46-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:46-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:46-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:46-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:1 Unfinished:29 
+
+2019-12-14T20:58:46-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:46-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:17 Unfinished:13 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:47-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:48-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:48-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:48-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [1_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:48-05:00 - ERROR [adapters/fabric]: Failed to evaluate transaction [readMyAsset] using arguments [0_0],  with error: FabricError: No peers available to query. Errors: ["Failed to connect before the deadline URL:grpcs://localhost:30557"]
+    at SingleQueryHandler.evaluate (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/lib/impl/query/singlequeryhandler.js:44:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:48-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:58:49-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:58:50-05:00 - INFO [demo.js]: [Transaction Info] - Submitted: 30 Succ: 0 Fail:28 Unfinished:2 
+
+2019-12-14T20:58:51-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [deleteMyAsset] using arguments [1_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:51-05:00 - ERROR [adapters/fabric]: Failed to submit transaction [deleteMyAsset] using arguments [0_0],  with error: Error: Endorsement has failed
+    at DiscoveryEndorsementHandler._endorse (/home/bonomo/.nvm/versions/node/v8.3.0/lib/node_modules/fabric-network/node_modules/fabric-client/lib/impl/DiscoveryEndorsementHandler.js:184:19)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7) 
+
+2019-12-14T20:58:51-05:00 - DEBUG [report-builder]: r.create.max: 1576375125.202 r.create.min: 1576375123.696 r.final.max: null r.final.min: null r.final.last: 1576375128.208 
+

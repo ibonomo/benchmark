@@ -1,0 +1,50 @@
+2019-12-10T01:16:51-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-10T01:16:51-05:00 - WARN [bind]: Working directory for binding not specified. Using "/home/bonomo/Documents/swim" 
+
+2019-12-10T01:16:51-05:00 - INFO [bind]: User-provided arguments for "npm install": "-g" 
+
+2019-12-10T01:16:51-05:00 - INFO [bind]: Binding working directory: /home/bonomo/Documents/swim 
+
+2019-12-10T01:16:51-05:00 - INFO [bind]: Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4 
+
+2019-12-10T01:18:45-05:00 - ERROR [bind]: Failed to execute "npm" with return code 1. 
+
+2019-12-10T01:21:59-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-10T01:21:59-05:00 - WARN [bind]: Working directory for binding not specified. Using "/home/bonomo/Documents/swim" 
+
+2019-12-10T01:21:59-05:00 - INFO [bind]: User-provided arguments for "npm install": "-g" 
+
+2019-12-10T01:21:59-05:00 - INFO [bind]: Binding working directory: /home/bonomo/Documents/swim 
+
+2019-12-10T01:21:59-05:00 - INFO [bind]: Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4 
+
+2019-12-10T01:23:55-05:00 - ERROR [bind]: Failed to execute "npm" with return code 1. 
+
+2019-12-10T01:46:54-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-10T01:46:54-05:00 - WARN [bind]: Working directory for binding not specified. Using "/home/bonomo/Documents/swim" 
+
+2019-12-10T01:46:54-05:00 - INFO [bind]: User-provided arguments for "npm install": "-gcaliper" 
+
+2019-12-10T01:46:54-05:00 - INFO [bind]: Binding working directory: /home/bonomo/Documents/swim 
+
+2019-12-10T01:46:54-05:00 - INFO [bind]: Calling npm with: install -gcaliper grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4 
+
+2019-12-10T01:50:15-05:00 - DEBUG Constructed a winston logger with the specified targets:
+	{"consolelogger":{"target":"console","level":"info"},"filelogger":{"target":"daily-rotate-file","level":"debug","filename":"log/caliper-%DATE%.log","datePattern":"YYYY-MM-DD-HH","maxSize":"5m","zippedArchive":true}}
+
+2019-12-10T01:50:15-05:00 - WARN [bind]: Working directory for binding not specified. Using "/home/bonomo/Documents/swim" 
+
+2019-12-10T01:50:15-05:00 - INFO [bind]: User-provided arguments for "npm install": "-g" 
+
+2019-12-10T01:50:15-05:00 - INFO [bind]: Binding working directory: /home/bonomo/Documents/swim 
+
+2019-12-10T01:50:15-05:00 - INFO [bind]: Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.0 fabric-client@1.4.0 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.0 
+
+2019-12-10T01:51:57-05:00 - ERROR [bind]: Failed to execute "npm" with return code 1. 
+

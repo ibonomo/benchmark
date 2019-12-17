@@ -1,0 +1,23 @@
+test:
+  name: my-asset-benchmark
+  description: Benchmarking for VS Code sample
+  clients:
+    type: local
+    number: 2
+  rounds:
+    - label: queryAsset
+      txNumber: 10
+      description: Query asset benchmark test
+      chaincodeId: swimPlano
+      txDuration:
+      - 30
+      rateControl:
+      - type: fixed-backlog
+        opts:
+          unfinished_per_client: 2
+      callback: callbacks/queryAssetBenchmark.js
+      arguments:
+        assets: 1
+monitor:
+  type:
+  - none
